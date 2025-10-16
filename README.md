@@ -1,6 +1,6 @@
-# 👋 Salut, moi c’est Loïc Akamga
+# 👋 Salut, je suis Loïc Akamga
 
-🎓 Étudiant en **Licence 3 Électronique, Énergie Électrique et Automatique (EEA)**  
+🎓 Étudiant en **Licence 3 Électronique, Énergie Électrique et Automatique (EEA)** 
 🤖 Passionné par la **robotique**, l’**automatique**, les **systèmes embarqués** et la **programmation Python**  
 📍 Basé en France — futur ingénieur en **robotique intelligente et autonome**  
 
@@ -94,7 +94,7 @@ Créer un **portfolio complet** mêlant théorie, simulation et expérimentation
 
 ## 🌐 Me retrouver
 
-📫 **Email :** [loic.akamga@example.com](mailto:loic.akamga@example.com)  
+📫 **Email :** [loicakamga@gmail.com](mailto:loicakamga@gmail.com)  
 💼 **LinkedIn :** [linkedin.com/in/loic-akamga](https://linkedin.com/in/loic-akamga)  
 💻 **GitHub :** [github.com/ton-pseudo](https://github.com/ton-pseudo)  
 

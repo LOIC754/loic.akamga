@@ -61,7 +61,7 @@ Mon objectif 🎯 : **Devenir un ingénieur roboticien capable de concevoir, sim
 ## 📘 Notes de cours et ressources
 
 Je partage également mes **notes de cours, résumés et exercices corrigés** dans les domaines suivants :
-- 🧠 Automatique et systèmes échantillonnés  
+- 🧠 Automatique,asservissemnt PID  
 - ⚡ Électronique de puissance  
 - 🔍 Traitement du signal  
 - ⚙️ Systèmes embarqués  

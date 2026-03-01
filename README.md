@@ -51,11 +51,10 @@ Mon objectif 🎯 : **Devenir un ingénieur roboticien capable de concevoir, sim
 
 ---
 
-### ⚡ [Électronique de puissance – Convertisseur Forward 200–400 V → 5 V](https://github.com/ton-pseudo/forward-converter)
+### ⚡ [Électronique de puissance – Convertisseur Forward 200–400 V → 5 V](https://github.com/LOIC754/loic.akamga/blob/43c36fb7a19b59b54777701ab8e9cacf9884db7e/pid.ipynb)
 - Étude et dimensionnement complet d’un **convertisseur continu–continu isolé**
 - Calculs de pertes, courants, démagnétisation et rendement
-- Chronogrammes de fonctionnement simulés  
-
+- Chronogrammes de fonctionnement simulés
 ---
 
 ## 📘 Notes de cours et ressources

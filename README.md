@@ -2,13 +2,13 @@
 
 🎓 Étudiant en **Licence 3 Électronique, Énergie Électrique et Automatique (EEA)** 
 🤖 Passionné par la **robotique**, l’**automatique**, les **systèmes embarqués** et la **programmation Python**  
-📍 Basé en France — futur ingénieur en **robotique intelligente et autonome**  
+📍 France-Montpellier — futur ingénieur en **robotique/Automatique**  
 
 ---
 
 ## 🚀 À propos de moi
 
-Je suis un étudiant curieux et autodidacte, actuellement en train de bâtir un solide portfolio de projets pratiques autour de la **robotique mobile**, de la **commande automatique** et du **traitement du signal**.
+Je suis un étudiant curieux et autodidacte, actuellement je m'entraine sur des projets pratiques autour de la **robotique mobile**, de la **commande automatique** et du **traitement du signal**.
 
 Je combine mes cours universitaires avec des projets concrets réalisés dans **CoppeliaSim**, **MATLAB**, et **Python**, afin de renforcer mes compétences et préparer mon avenir dans la recherche ou l’industrie robotique.
 

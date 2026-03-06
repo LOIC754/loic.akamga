@@ -39,7 +39,7 @@ Mon objectif 🎯 : **Devenir un ingénieur roboticien capable de concevoir, sim
 ### 🧮 [Systèmes échantillonnés et commande numérique](https://github.com/ton-pseudo/controle-numerique)
 - Étude complète de la **fonction de transfert pulsée** et des **équations de récurrence**
 - Simulation sous **Python** et **MATLAB**
-- Application à la commande discrète d’un système du second ordre
+
 
 ---
 

@@ -11,7 +11,7 @@ Je suis un étudiant curieux et autodidacte, actuellement je m'entraine sur des 
 
 Je combine mes cours universitaires avec des projets concrets réalisés dans **CoppeliaSim**, **MATLAB**, et **Python**, afin de renforcer mes compétences et préparer mon avenir dans la recherche ou l’industrie robotique.
 
-Mon objectif 🎯 : **Devenir un ingénieur roboticien capable de concevoir, simuler et contrôler des systèmes autonomes.**
+Mon objectif 🎯 : **Dun ingénieur roboticien capable de concevoir, simuler et contrôler des systèmes autonomes.**
 
 ---
 

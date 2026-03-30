@@ -1,17 +1,27 @@
 # 👋 Salut, je suis Loïc Akamga
 
-🎓 Étudiant en **Licence 3 Électronique, Énergie Électrique et Automatique (EEA)**  Passionné par la **robotique**, l’**automatique**, les **systèmes embarqués** et la **programmation Python**  
-📍 France-Montpellier — futur ingénieur en **robotique/Automatique**  
+🎓 Étudiant en **Licence 3 Électronique, Énergie Électrique et Automatique (EEA)**  
+💡 En transition vers un profil **Data Engineer appliqué à la robotique et au traitement du signal**  
+📍 France-Montpellier — futur ingénieur en **robotique / data / systèmes intelligents**
 
 ---
 
 ## 🚀 À propos de moi
 
-Je suis un étudiant curieux et autodidacte, actuellement je m'entraine sur des projets pratiques autour de la **robotique mobile**, de la **commande automatique** et du **traitement du signal**.
+Je suis un étudiant curieux et autodidacte, actuellement en train de développer une double compétence en :
 
-Je combine mes cours universitaires avec des projets concrets réalisés dans **CoppeliaSim**, **MATLAB**, et **Python**, afin de renforcer mes compétences et préparer mon avenir dans la recherche ou l’industrie robotique.
+- 🤖 **Robotique et automatique**
+- 📊 **Data Engineering et traitement des données**
 
-Mon objectif 🎯 : **Dun ingénieur roboticien capable de concevoir, simuler et contrôler des systèmes autonomes.**
+Je travaille sur des projets concrets combinant **simulation robotique, traitement du signal et pipelines de données**, en utilisant :
+
+- **Python**
+- **SQL**
+- **CoppeliaSim**
+- **MATLAB**
+
+Mon objectif 🎯 :  
+👉 **Devenir un ingénieur capable de concevoir des systèmes autonomes intelligents en exploitant les données (capteurs, signaux, robotique).**
 
 ---
 
@@ -21,50 +31,59 @@ Mon objectif 🎯 : **Dun ingénieur roboticien capable de concevoir, simuler et
 - Simulation complète dans **CoppeliaSim**
 - Suivi de trajectoire à l’aide d’un **polynôme quintique et spline cubique**
 - Visualisation des trajectoires sous **Matplotlib**
-- Implémentation du **contrôle différentiel** avec capteurs et obstacles
+- Implémentation du **contrôle différentiel**
 
-**Tech stack :** Python, CoppeliaSim, NumPy, Matplotlib  
-
----
-
-### ⚙️ [Méthode des champs de potentiels pour évitement d’obstacles](https://github.com/ton-pseudo/potential-fields-robot)
-- Implémentation du **champ attractif + répulsif** pour la navigation autonome
-- Tests en environnement simulé et vérification sous **CoppeliaSim**
-- Interface graphique pour visualiser le mouvement du robot  
-
-**Tech stack :** Python, Matplotlib, CoppeliaSim API  
+**Tech stack :** Python, NumPy, Matplotlib, CoppeliaSim  
 
 ---
 
-### 🧮 [Systèmes échantillonnés et commande numérique](https://github.com/ton-pseudo/controle-numerique)
-- Étude complète de la **fonction de transfert pulsée** et des **équations de récurrence**
-- Simulation sous **Python** et **MATLAB**
+### ⚙️ [Méthode des champs de potentiels](https://github.com/ton-pseudo/potential-fields-robot)
+- Navigation autonome avec **champs attractif et répulsif**
+- Simulation et visualisation des trajectoires
 
-
----
-
-### 🔊 [Traitement du signal – Analyse fréquentielle et filtrage numérique](https://github.com/ton-pseudo/filtrage-numerique)
-- Analyse temporelle et fréquentielle d’un signal sinusoïdal
-- Échantillonnage, TFD, FFT et conception de **filtres passe-bas / passe-haut**
-- Visualisation des spectres et signaux filtrés
+**Tech stack :** Python, Matplotlib  
 
 ---
 
-### ⚡ [Etude d'un correcteur PID](https://github.com/LOIC754/loic.akamga/blob/43c36fb7a19b59b54777701ab8e9cacf9884db7e/pid.ipynb)
-- Commande systeme par la  **Méthode de Zigler Nichol**
-- Calculs de gain 
-- Influence des parametres sur la reponse du systemes
+### 🧮 [Commande numérique et systèmes échantillonnés](https://github.com/ton-pseudo/controle-numerique)
+- Fonction de transfert pulsée
+- Simulation Python / MATLAB
+
+---
+
+### 🔊 [Traitement du signal – FFT & filtrage](https://github.com/ton-pseudo/filtrage-numerique)
+- Analyse fréquentielle
+- Filtrage numérique
+- Visualisation spectrale
+
+---
+
+### ⚡ [Étude d'un correcteur PID](https://github.com/LOIC754/loic.akamga/blob/43c36fb7a19b59b54777701ab8e9cacf9884db7e/pid.ipynb)
+- Réglage par **Ziegler-Nichols**
+- Analyse des performances du système
+
+---
+
+### 📊 [Mini projet Data Engineering – Pipeline de données capteurs](https://github.com/ton-pseudo/data-pipeline-sensors)
+- Extraction de données capteurs simulés (robot)
+- Nettoyage et transformation des données
+- Stockage en base de données (PostgreSQL)
+- Analyse des données avec Python (Pandas)
+
+**Tech stack :** Python, SQL, Pandas, PostgreSQL  
+
 ---
 
 ## 📘 Notes de cours et ressources
 
-Je partage également mes **notes de cours, résumés et exercices corrigés** dans les domaines suivants :
-- 🧠 Automatique,asservissemnt PID    
-- 🔍 Traitement du signal  
-- ⚙️ Systèmes embarqués  
-- 🤖 Robotique et commande des robots  
+Je documente mon apprentissage en continu :
 
-👉 [Accéder à mes notes et ressources](https://github.com/ton-pseudo/notes-et-cours)
+- 🤖 Robotique  
+- 🔁 Automatique  
+- 🔊 Traitement du signal  
+- 📊 Data Engineering (SQL, nettoyage de données, pipelines)
+
+👉 [Accéder à mes notes](https://github.com/ton-pseudo/notes-et-cours)
 
 ---
 
@@ -73,19 +92,36 @@ Je partage également mes **notes de cours, résumés et exercices corrigés** d
 | Domaine | Compétences |
 |----------|-------------|
 | **Programmation** | Python, MATLAB, C |
-| **Simulation robotique** | CoppeliaSim, V-REP API |
-| **Électronique / Énergie** | Convertisseurs DC/DC, commandes moteurs |
-| **Automatique** | PID, correcteurs numériques, systèmes échantillonnés |
-| **Traitement du signal** | FFT, filtrage numérique, Sallen-Key |
-| **Logiciels** | Spyder, Simulink, Proteus, LTspice |
+| **Data Engineering (Junior)** | SQL, PostgreSQL, nettoyage de données, Pandas |
+| **Manipulation de données** | Pandas, NumPy |
+| **Bases de données** | PostgreSQL (création de schéma, requêtes SQL, index) |
+| **Simulation robotique** | CoppeliaSim |
+| **Automatique** | PID, systèmes échantillonnés |
+| **Traitement du signal** | FFT, filtrage numérique |
+| **Outils** | Git, GitHub, VS Code |
+
+---
+
+## 📈 Compétences en cours d’acquisition
+
+- Data pipelines (ETL)
+- Big Data (Spark)
+- Data modeling
+- Machine Learning appliqué aux signaux et robots
+- ROS (Robot Operating System)
 
 ---
 
 ## 🎯 Objectif actuel
 
-Créer un **portfolio complet** mêlant théorie, simulation et expérimentation, pour valoriser mes compétences et préparer :
-- Une **admission en master de robotique / automatique**
-- Une **carrière en robotique intelligente, systèmes embarqués ou automatique industrielle**
+Construire un profil hybride :
+
+👉 **Robotique + Data Engineering + Signal Processing**
+
+Pour :
+- Intégrer un **master robotique / data**
+- Travailler sur des systèmes autonomes intelligents
+- Exploiter les données capteurs pour améliorer les robots
 
 ---
 
@@ -97,4 +133,4 @@ Créer un **portfolio complet** mêlant théorie, simulation et expérimentation
 
 ---
 
-> _“L’ingénierie, c’est transformer une idée en mouvement, une équation en robot.”_ — Loïc Akamga
+> _“Un robot intelligent n’est rien sans données bien exploitées.”_ — Loïc Akamga

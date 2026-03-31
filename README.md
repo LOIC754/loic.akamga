@@ -1,91 +1,112 @@
 # 👋 Salut, je suis Loïc Akamga
 
-🎓 Étudiant en **Licence 3 Électronique, Énergie Électrique et Automatique (EEA)**  Passionné par la **robotique**, l’**automatique**, les **systèmes embarqués** et la **programmation Python**  
-📍 France-Montpellier — futur ingénieur en **robotique/Automatique**  
+🎓 Étudiant en **Licence 3 EEA** (Électronique, Énergie Électrique et Automatique)  
+🗄️ En reconversion vers la **Data Engineering** — spécialité **robotique & analyse du signal**  
+📍 Montpellier, France
 
 ---
 
 ## 🚀 À propos de moi
 
-Je suis un étudiant curieux et autodidacte, actuellement je m'entraine sur des projets pratiques autour de la **robotique mobile**, de la **commande automatique** et du **traitement du signal**.
+Ingénieur en formation avec une base solide en **traitement du signal**, **automatique** et **systèmes embarqués**, je me spécialise en **data engineering** pour répondre à un besoin concret : les systèmes robotiques et embarqués génèrent des volumes massifs de données capteurs qui nécessitent des pipelines robustes pour être exploitables.
 
-Je combine mes cours universitaires avec des projets concrets réalisés dans **CoppeliaSim**, **MATLAB**, et **Python**, afin de renforcer mes compétences et préparer mon avenir dans la recherche ou l’industrie robotique.
-
-Mon objectif 🎯 : **Devenir un ingénieur roboticien capable de concevoir, simuler et contrôler des systèmes autonomes.**
+Je construis mon profil à l'intersection de **l'ingénierie des données** et de **l'ingénierie des systèmes** — une combinaison rare et recherchée dans l'industrie robotique et l'IoT industriel.
 
 ---
 
-## 🧩 Projets principaux
+## 🗄️ Projets Data Engineering
+
+### 🔧 [Pipeline ETL – Données capteurs robotiques](https://github.com/ton-pseudo/etl-capteurs-robotiques)
+> Ingestion, nettoyage et stockage de données issues de capteurs simulés (distance, vitesse, position)
+
+- Extraction de données depuis **CoppeliaSim** via API Python
+- Nettoyage et transformation avec **Pandas** (valeurs nulles, doublons, normalisation)
+- Chargement dans une base **PostgreSQL** locale
+- Requêtes SQL d'analyse : moyennes glissantes, détection d'anomalies
+
+**Tech stack :** Python, Pandas, PostgreSQL, SQL, CoppeliaSim API
+
+---
+
+### 📊 [EDA – Analyse exploratoire de signaux embarqués](https://github.com/ton-pseudo/eda-signaux-embarques)
+> Exploration et visualisation de données de signaux réels (accéléromètre, encodeur, capteur ultrason)
+
+- Analyse statistique descriptive avec **Pandas / NumPy**
+- Visualisation temporelle et fréquentielle (**Matplotlib**, **Seaborn**)
+- Détection de valeurs aberrantes et nettoyage de séries temporelles
+- Rapport d'analyse structuré en **Jupyter Notebook**
+
+**Tech stack :** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter
+
+---
+
+### 🗃️ [SQL Data Cleaning – Jeux de données industriels](https://github.com/ton-pseudo/sql-data-cleaning)
+> Nettoyage et transformation de données brutes avec SQL pur (BigQuery dialect)
+
+- Gestion des **valeurs nulles**, doublons, types incohérents
+- Fonctions `REGEXP`, `TRIM`, `CAST`, `COALESCE`, `DISTINCT`
+- Construction de tables propres prêtes à l'analyse
+- Requêtes réutilisables et documentées
+
+**Tech stack :** SQL, BigQuery, Google Cloud Platform
+
+---
+
+### ⚙️ [Orchestration Airflow – Pipeline automatisé de données capteurs *(en cours)*](https://github.com/ton-pseudo/airflow-pipeline-capteurs)
+> Automatisation d'un pipeline de collecte et traitement de données via Apache Airflow
+
+- DAG Python pour orchestrer extraction → transformation → chargement
+- Scheduling quotidien des tâches ETL
+- Logs et monitoring des runs
+
+**Tech stack :** Python, Apache Airflow, PostgreSQL, Docker
+
+---
+
+## 🤖 Projet Robotique — Base technique
 
 ### 🦾 [Commande du robot mobile Pioneer 3DX – CoppeliaSim + Python](https://github.com/ton-pseudo/projet-pioneer3dx)
-- Simulation complète dans **CoppeliaSim**
-- Suivi de trajectoire à l’aide d’un **polynôme quintique et spline cubique**
-- Visualisation des trajectoires sous **Matplotlib**
-- Implémentation du **contrôle différentiel** avec capteurs et obstacles
+> Ce projet illustre le contexte métier de mes pipelines data : la simulation génère les données capteurs que j'exploite ensuite.
 
-**Tech stack :** Python, CoppeliaSim, NumPy, Matplotlib  
+- Simulation complète dans **CoppeliaSim** avec suivi de trajectoire (spline cubique, polynôme quintique)
+- Génération de flux de données : position, vitesse, distance aux obstacles
+- Ces données alimentent directement mes pipelines ETL
 
----
-
-### ⚙️ [Méthode des champs de potentiels pour évitement d’obstacles](https://github.com/ton-pseudo/potential-fields-robot)
-- Implémentation du **champ attractif + répulsif** pour la navigation autonome
-- Tests en environnement simulé et vérification sous **CoppeliaSim**
-- Interface graphique pour visualiser le mouvement du robot  
-
-**Tech stack :** Python, Matplotlib, CoppeliaSim API  
-
----
-
-### 🧮 [Systèmes échantillonnés et commande numérique](https://github.com/ton-pseudo/controle-numerique)
-- Étude complète de la **fonction de transfert pulsée** et des **équations de récurrence**
-- Simulation sous **Python** et **MATLAB**
-
-
----
-
-### 🔊 [Traitement du signal – Analyse fréquentielle et filtrage numérique](https://github.com/ton-pseudo/filtrage-numerique)
-- Analyse temporelle et fréquentielle d’un signal sinusoïdal
-- Échantillonnage, TFD, FFT et conception de **filtres passe-bas / passe-haut**
-- Visualisation des spectres et signaux filtrés
-
----
-
-### ⚡ [Etude d'un correcteur PID](https://github.com/LOIC754/loic.akamga/blob/43c36fb7a19b59b54777701ab8e9cacf9884db7e/pid.ipynb)
-- Commande systeme par la  **Méthode de Zigler Nichol**
-- Calculs de gain 
-- Influence des parametres sur la reponse du systemes
----
-
-## 📘 Notes de cours et ressources
-
-Je partage également mes **notes de cours, résumés et exercices corrigés** dans les domaines suivants :
-- 🧠 Automatique,asservissemnt PID    
-- 🔍 Traitement du signal  
-- ⚙️ Systèmes embarqués  
-- 🤖 Robotique et commande des robots  
-
-👉 [Accéder à mes notes et ressources](https://github.com/ton-pseudo/notes-et-cours)
+**Tech stack :** Python, CoppeliaSim, NumPy, Matplotlib
 
 ---
 
 ## 🧰 Compétences techniques
 
 | Domaine | Compétences |
-|----------|-------------|
-| **Programmation** | Python, MATLAB, C |
-| **Simulation robotique** | CoppeliaSim, V-REP API |
-| **Électronique / Énergie** | Convertisseurs DC/DC, commandes moteurs |
-| **Automatique** | PID, correcteurs numériques, systèmes échantillonnés |
-| **Traitement du signal** | FFT, filtrage numérique, Sallen-Key |
-| **Logiciels** | Spyder, Simulink, Proteus, LTspice |
+|---|---|
+| **Data Engineering** | ETL pipelines, nettoyage de données, ingestion, transformation |
+| **Langages** | Python (Pandas, NumPy, Matplotlib), SQL, MATLAB |
+| **Bases de données** | PostgreSQL, BigQuery (GCP) |
+| **Orchestration** | Apache Airflow, scripts Python automatisés |
+| **Versioning & environnements** | Git, GitHub, Jupyter Notebooks, Anaconda, Docker (notions) |
+| **Cloud** | Google Cloud Platform (BigQuery), notions AWS |
+| **Traitement du signal** | FFT, filtrage numérique, séries temporelles |
+| **Simulation** | CoppeliaSim, MATLAB/Simulink |
 
 ---
 
-## 🎯 Objectif actuel
+## 📚 Formations & certifications
 
-Créer un **portfolio complet** mêlant théorie, simulation et expérimentation, pour valoriser mes compétences et préparer :
-- Une **admission en master de robotique / automatique**
-- Une **carrière en robotique intelligente, systèmes embarqués ou automatique industrielle**
+| Certification | Plateforme | Statut |
+|---|---|---|
+| SQL & BigQuery | Kaggle | 🔄 En cours |
+| Google Data Analytics Certificate | Coursera | 🔄 En cours |
+| AWS Certified Data Engineer Associate (DEA-C01) | AWS | 🎯 Objectif 2025 |
+| Databricks Certified Associate Developer | Databricks Academy | 🎯 Objectif 2025 |
+
+---
+
+## 🎯 Objectif
+
+Décrocher un **premier poste de Data Engineer Junior** dans un secteur à forte composante technique : **robotique, IoT industriel, systèmes embarqués ou analyse du signal**.
+
+Mon profil hybride ingénierie + data me permet de comprendre à la fois la donnée et le système qui la génère.
 
 ---
 
@@ -93,8 +114,8 @@ Créer un **portfolio complet** mêlant théorie, simulation et expérimentation
 
 📫 **Email :** [loicakamga@gmail.com](mailto:loicakamga@gmail.com)  
 💼 **LinkedIn :** [linkedin.com/in/loic-akamga](https://linkedin.com/in/loic-akamga)  
-💻 **GitHub :** [github.com/ton-pseudo](https://github.com/ton-pseudo)  
+💻 **GitHub :** [github.com/ton-pseudo](https://github.com/ton-pseudo)
 
 ---
 
-> _“L’ingénierie, c’est transformer une idée en mouvement, une équation en robot.”_ — Loïc Akamga
+> _"Les meilleures données viennent des meilleurs systèmes. Je construis les deux."_ — Loïc Akamga
